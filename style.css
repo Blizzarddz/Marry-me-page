@@ -1,0 +1,29 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body{
+    background-color: pink;
+}
+
+img {
+    display: block;
+    margin: 20px auto; 
+}
+.content {
+    margin-top: 20px;
+    text-align: center; 
+}
+.my-button{
+    background-color: beige;
+    color: purple;
+    padding: 10px 20px;
+    border: round;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.my-button:hover{
+    background-color: rgb(255, 255, 255);
+}
